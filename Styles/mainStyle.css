@@ -5,6 +5,17 @@ body{
     color: #96a2b0;
 }
 
+.grid-container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    margin:2%;
+}
+
+.column-two{
+    margin: 3%;
+}
+
 .Title{
     text-align: center;
     padding: 3%;
