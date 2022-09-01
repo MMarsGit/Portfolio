@@ -22,14 +22,13 @@ body{
 }
 
 .IntroImages{
-    width: 720px;
-    height:340px;
-    border-style:dashed;
+    margin-top: 10%;
+    margin-right: 10%;
 }
 
 .IntroImages > img{
-   width: 720px;
-   height:340px;
+   width: 512px;
+   height:320px;
 }
 
 .bodyProjects{
