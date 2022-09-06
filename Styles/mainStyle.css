@@ -172,7 +172,58 @@ body{
     width: 100%;
     height: 640px;
     margin-bottom: 50px;
-}
+}   
+
+    #indexGrid-Skills{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows:  1fr 1fr;
+        align-items: center;
+        align-self: center;
+        padding-top: 4%;
+    }
+
+        #skillsLanguages{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+            margin: 10%;
+            border-radius: 25px;
+            background-color: cornflowerblue;
+            padding: 5%;
+            color: #17181b;
+        }
+
+        #skillsLibraries{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 1;
+            grid-column-end: 2;
+
+            text-align: justify;
+            margin: 10%;
+            border-radius: 25px;
+            background-color: cornflowerblue;
+            padding: 5%;
+            color: #17181b;
+        }
+
+        #skillsSoftware{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+
+            height: 500px;
+            text-align: justify;
+            margin: 10%;
+            border-radius: 25px;
+            background-color: cornflowerblue;
+            padding: 5%;
+            color: #17181b;
+        }
 
 #DeveloperProjects{
     color: black;
