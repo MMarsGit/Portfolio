@@ -1,145 +1,10 @@
-.grid-Intro{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 10px;
-    margin:2%;
-}
-
-.grid-Projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows:  1fr 1fr;
-    align-items: center;
-    align-self: center;
-}
-
-#projectsAbout{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    grid-column-start: 1;
-    grid-column-end: 2;
-
-    text-align: center;
-    color: black;
-    font-size: 20px;
-    background-color: cornflowerblue;
-    margin: 10%;
-    padding: 7%;
-}
-
-#projectDiceRoller{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 2;
-    grid-column-end: 3;
-
-    height: 300px;
-    width: 300px;
-    margin:5%;
-    
-}
-
-#projectFestival{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    height: 300px;
-    width: 300px;
-    margin:5%;
-
-}
-
-#projectFlashCards{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    height: 300px;
-    width: 300px;
-    margin:5%;
-
-}
-
-#projectTimer{
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    height: 300px;
-    width: 300px;
-    margin:5%;
-
-}
-
-#DeveloperProjects{
-    color: black;
-}
-
-.projectImg{
-    max-height: 100%;
-    max-width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-}
-
-
-.projectsProject{
-    background-color: cornflowerblue;
-    width: 20px;
-    height: 20px;
-
-}
-
 body{
     font-family: Tahoma, sans-serif;
     margin: 0%;
     /*ackground-image: linear-gradient(#16181c, #25272c);*/
     background-color: whitesmoke;
-    color: #96a2b0;
+    color:#17181b;
     
-}
-
-.bodyIntro{
-    width: 100%;
-    height: 640px;
-    background-image: url("../BlueAngle.jpg");
-    background-size: cover;
-}
-
-.Intro{
-    color: black;
-    text-align: center;
-    font-size: 35px;
-    padding-right: 30%;
-}
-
-.IntroImages{
-    margin-top: 10%;
-    margin-right: 10%;
-}
-
-.IntroImages > img{
-   width: 512px;
-   height:320px;
-}
-
-.bodyProjects{
-    width: 100%;
-    height: 640px;
-    margin-bottom: 50px;
-}
-.bodySkills{
-    width: 100%;
-    height: 640px;
-    margin-bottom: 50px;
-}
-
-
-
-
-.column-two{
-    margin: 3%;
 }
 
 .Title{
@@ -150,16 +15,12 @@ body{
     margin-right: 0%;
     box-shadow:1px #808080;
     background-color:#17181b;
-}
-.Title > h1{
-    display: inline-block;
+    color: #96a2b0;
 }
 
-.header{
-    text-align: center;
-    border: 1px, solid, black;
-    box-shadow:1px #808080;
-}
+    .Title > h1{
+        display: inline-block;
+    }
 
 .Nav{
     list-style-type: none;
@@ -171,62 +32,174 @@ body{
     margin-left: 40%;
 }
 
+    .Nav > a{
+        text-align: right;
+        text-decoration: none;
+        color: #96a2b0;
+    }
 
-
-.Nav > a{
-    text-align: right;
-    text-decoration: none;
-    color: #96a2b0;
+.header{
+    text-align: center;
+    border: 1px, solid, black;
+    box-shadow:1px #808080;
 }
 
-hr{
-    border: 0; 
+#indexIntro{
+    width: 100%;
+    height: 640px;
+    background-image: url("../BlueAngle.jpg");
+    background-size: cover;
 }
 
-.project{
+    #indexGrid-Intro{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 10px;
+        margin:2%;
+        
+    }
+
+    #Intro{
+        text-align: center;
+        font-size: 20px;
+        color: #17181b;
+        padding-top: 10%;
+    }
+
+    #IntroImages{
+        width: 500px;
+        height: 500px;
+        padding-top: 6%;
+    }
+
+    #IntroImages > img{
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+
+#indexProjects{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 50px;
+}
+
+    #indexGrid-Projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  1fr 1fr;
+        align-items: center;
+        align-self: center;
+    }
+
+    #indexProjectsAbout{
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 2;
     
-    height: 350px;
-    text-align: right;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-top: 5%;
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        background-color: cornflowerblue;
+        margin: 10%;
+        padding: 7%;
+    }
+
+    #projectDiceRoller{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 300px;
+        width: 300px;
+        margin:5%;
+    }
+
+    #projectFestival{
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        height: 300px;
+        width: 300px;
+        margin:5%;
+    }
+
+    #projectFlashCards{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 2;
+        grid-column-end: 3;
+        height: 300px;
+        width: 300px;
+        margin:5%;
+    }
+
+    #projectTimer{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+        height: 300px;
+        width: 300px;
+        margin:5%;
+    }
+
+    .section{
+        text-align: justify;
+        margin: 3%;
+        border-radius: 25px;
+        background-color: cornflowerblue;
+        padding: 5%;
+        color: #17181b;
+    }
+
+#indexSkills{
+    width: 100%;
+    height: 640px;
+    margin-bottom: 50px;
 }
 
-.pImage{
-    width: 512px;
-    height: 320px;
-    margin-top: 5%;
-    margin-bottom: 5%;
+#DeveloperProjects{
+    color: black;
 }
 
-.Description{
-    text-align: right;
-    font-size: 20px;
+    .projectImg{
+        max-height: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .Tags{
+
+    }
+
+    .project{ 
+        height: 350px;
+        text-align: right;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 5%;
+    }
     
-}
-
-.Tags{
-
-}
-
-#more{
-    display: none;
-}
-
-/* About page*/
-.mainBody{
-    font-size: 20px;
+    .pImage{
+        width: 512px;
+        height: 320px;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
     
-}
+    .Description{
+        text-align: right;
+        font-size: 20px;
+        
+    }
 
-.section{
-    text-align: justify;
-    margin: 3%;
-    border-radius: 25px;
-    background-color: cornflowerblue;
-    padding: 5%;
-    color: #17181b;
-}
+    .column-two{
+        margin: 3%;
+    }
 
 .eduList{
     text-align: center;
