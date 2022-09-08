@@ -183,7 +183,18 @@ body{
         grid-template-rows:  1fr 1fr;
         align-items: center;
         align-self: center;
+        background-color: aquamarine;
     }
+
+        .skillsImgs{
+            height: 100px;
+            width: 500px;
+        }
+
+        .skillsImgs > img{
+            max-height: 100%;
+            
+        }
 
         #skillsLanguages{
             grid-row-start: 1;
@@ -209,6 +220,9 @@ body{
             border-radius: 25px;
             background-color: cornflowerblue;
             padding: 5%;
+            padding-bottom: 5%;
+            transform: translate(0, -100px);
+            height: 300px;
             color: #17181b;
         }
 
@@ -218,10 +232,11 @@ body{
             grid-column-start: 2;
             grid-column-end: 3;
 
-            height: 500px;
+            height: 400px;
             text-align: justify;
             margin: 10%;
             border-radius: 25px;
+            transform: translate(0, -100px);
             background-color: cornflowerblue;
             padding: 5%;
             color: #17181b;
@@ -229,6 +244,8 @@ body{
 
 #DeveloperProjects{
     color: black;
+    background-color: aqua;
+    margin:0%;
 }
 
     .projectImg{
