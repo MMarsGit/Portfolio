@@ -113,6 +113,13 @@ body{
         padding: 10%;
     }
 
+    .projectImg{
+        max-height: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
     #projectDiceRoller{
         grid-row-start: 1;
         grid-row-end: 2;
@@ -248,35 +255,39 @@ body{
     margin:0%;
 }
 
-    .projectImg{
-        max-height: 100%;
-        max-width: 100%;
-        min-width: 100%;
-        min-height: 100%;
-    }
+
 
     .Tags{
 
     }
 
-    .project{ 
-        height: 350px;
+    .project{
         text-align: right;
         margin-left: 10%;
         margin-right: 10%;
-        padding-top: 5%;
+        width: 300px;
+        display:inline-block;
     }
+
     
     .pImage{
         width: 512px;
         height: 320px;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        padding-top: 5%;
+        display: inline-block;
+    }
+
+    .pImage > img{
+        max-height: 100%;
+        max-width: 100%;
+        min-width:100%;
+        min-height: 100%;
     }
     
     .Description{
         text-align: right;
         font-size: 20px;
+        vertical-align: middle;
         
     }
 
